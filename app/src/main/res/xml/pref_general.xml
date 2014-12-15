@@ -1,0 +1,38 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<EditTextPreference-->
+        <!--android:title="@string/pref_location_label"-->
+        <!--android:key="@string/pref_location_key"-->
+        <!--android:defaultValue="@string/pref_location_default"-->
+        <!--android:inputType="text"-->
+        <!--android:singleLine="true" />-->
+
+    <EditTextPreference
+        android:key="@string/pref_host_address_key"
+        android:title="@string/pref_host_address_label"
+        android:defaultValue="@string/pref_host_address_default"
+        android:selectAllOnFocus="true"
+        android:inputType="text"
+        android:singleLine="true"
+        android:maxLines="1" />
+
+    <EditTextPreference
+        android:key="@string/pref_server_port_key"
+        android:title="@string/pref_server_port_label"
+        android:defaultValue="@string/pref_server_port_default"
+        android:selectAllOnFocus="true"
+        android:inputType="number"
+        android:singleLine="true"
+        android:maxLines="1" />
+
+    <EditTextPreference
+        android:key="@string/pref_api_key_key"
+        android:title="@string/pref_api_key_label"
+        android:defaultValue="@string/pref_api_key_default"
+        android:selectAllOnFocus="true"
+        android:inputType="text"
+        android:singleLine="true"
+        android:maxLines="1" />
+
+
+</PreferenceScreen>

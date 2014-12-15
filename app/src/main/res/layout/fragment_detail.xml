@@ -1,0 +1,135 @@
+<!-- Master layout. -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <TextView
+            android:id="@+id/detail_title_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Move Title"
+            android:paddingLeft="16dp"
+            style="@style/MovieLabel"/>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/detail_icon"
+                android:layout_width="160dp"
+                android:layout_height="240dp"
+                android:src="@drawable/ic_launcher"
+                />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/detail_year_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Year"
+                    android:paddingLeft="16dp"
+                    style="@style/MovieTitle"/>
+                <TextView
+                    android:id="@+id/detail_runtime_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="90 minutes"
+                    android:paddingLeft="16dp"/>
+
+                <TextView
+                    android:id="@+id/detail_status_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Status"
+                    android:paddingLeft="16dp"/>
+                <TextView
+                    android:id="@+id/detail_quality_textview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="720p"
+                    android:textColor="@color/white"
+                    android:layout_gravity="bottom"
+                    android:background="@color/bluelight"
+                    android:paddingLeft="16dp"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"/>
+        <TextView
+            android:id="@+id/detail_tagline_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Movie Tag Line"
+            android:layout_gravity="center_horizontal"
+            style="@style/MovieTitle"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/detail_plot_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Movie Plot" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"/>
+
+    </LinearLayout>
+</ScrollView>

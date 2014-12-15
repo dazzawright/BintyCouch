@@ -1,0 +1,51 @@
+<resources>
+        <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Label for the location preference [CHAR LIMIT=30] -->
+    <string name="pref_location_label">Location</string>
+    <!-- Key name for storing location in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_location_key" translatable="false">location</string>
+    <!-- Default postal code for location preference [CHAR LIMIT=NONE] -->
+    <string name="pref_location_default" translatable="false">94043</string>
+
+
+    <!-- Label for the API Key Preference -->
+    <string name="pref_api_key_label">API Key</string>
+    <string name="pref_api_key_key" translatable="false">api_key</string>
+    <string name="pref_api_key_default" translatable="false"></string>
+
+
+    <string name="pref_host_address_label">IP/Host Address</string>
+    <string name="pref_host_address_key" translatable="false">host_address</string>
+    <string name="pref_host_address_default" translatable="false"></string>
+
+
+    <string name="pref_server_port_label">Server Port</string>
+    <string name="pref_server_port_key" translatable="false">server_port</string>
+    <string name="pref_server_port_default" translatable="false">5000</string>
+
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+</resources>

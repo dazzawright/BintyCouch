@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Binty Couch</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Menu label to fetch updated weather info from the server -->
+    <string name="action_refresh" translatable="false">Reload</string>
+    <string name="title_activity_movie_detail">MovieDetailActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+
+</resources>
